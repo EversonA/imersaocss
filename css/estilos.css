@@ -1,0 +1,39 @@
+body {
+    background-image: url("https://image.freepik.com/vetores-gratis/imagens-animadas-abstratas-neon-lines_23-2148344065.jpg");
+    background-size: auto  100vh ;
+    height: 100vh;
+    font-family: arial;
+  }
+  
+  .menu {
+    background-color:white;
+    
+  }
+  
+  a {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .menu ul {
+    display:flex; 
+    justify-content: space-around;
+    
+  }
+  
+  .menu li {
+    list-style:none;
+  }
+  .site-subtitle,
+  .site-title {
+    text-align:center;
+    color:whitesmoke;
+  }
+  
+  .site-subtitle {
+    font-family:italic; 
+  }
