@@ -1,22 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-    background-image: url("https://image.freepik.com/vetores-gratis/imagens-animadas-abstratas-neon-lines_23-2148344065.jpg");
-    background-size: auto  100vh ;
+    background-image: url("../img/fundo-gradiente-suave_77528-21.jpg");
+    /* background-image: url("../img/giphy.gif"); */
+    background-size: 200vw 200vh ;
     height: 100vh;
     font-family: arial;
+  }
+
+  /* Se a tela tiver pelo menos 400px carrega estes estilos */
+  @media (min-width:400px) {
+    body {
+      font-size: 14px;
+    }
+  }
+
+  header {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   .menu {
     background-color:white;
-    
+    position: fixed;
+    width: 100vw;
+    top: 0;
   }
-  
-  a {
-    color: blue;
-    text-decoration: none;
+
+  .menu a {
+    display: block;
+    padding: 10px 20px;
+    background-color: white;
+    transition: 0.3s;
   }
-  
-  a:hover {
-    text-decoration: underline;
+
+  .menu a:hover {
+    background-color: #00ff;
+    color: white;
   }
   
   .menu ul {
@@ -28,6 +54,16 @@ body {
   .menu li {
     list-style:none;
   }
+
+  a {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+
   .site-subtitle,
   .site-title {
     text-align:center;
@@ -36,4 +72,9 @@ body {
   
   .site-subtitle {
     font-family:italic; 
+  }
+
+  .img-portfolio {
+    width: 180px;
+    height: 180px;
   }
