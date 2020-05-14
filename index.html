@@ -15,46 +15,79 @@
   <header>
     <nav class="menu">
       <ul>
-        <li><a href="#">Sobre</a></li>
-        <li><a href="#">Portfólio</a></li>
-        <li><a href="#">Contato</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="comentario.html">Comentario</a></li>
+        <li><a href="contato.html">Contato</a></li>
       </ul>
     </nav>
     <div>
       <h1 class="site-title">Everson Andujas</h1>
       <h2 class="site-subtitle">Jr. developer</h2>
+      <img class="imgmouse" src="img/mv2.gif" alt="MDN Logo" />
     </div>
   </header>
 
   <section class="portfolio">
 
-    <h2>Portfólio:</h2>
+    <h2>Links:</h2>
 
     <div class="grid">
-      <figure>
 
-        <img class="img-portfolio" src="./img/ecomerce.jpg" alt="eCommerce">
-        <figcaption>eCommerce</figcaption>
-      </figure>
       <figure>
-
-        <img class="img-portfolio" src="./img/mobile.jpg" alt=">Mobile">
-        <figcaption>Mobile</figcaption>
+        <a href="http://instagram.com.br/eversonandujas">
+          <img class="img-portfolio" src="./img/insta.png" alt="Instagram">
+        </a>
+        <figcaption class="figcaption">Instagram</figcaption>
       </figure>
+
       <figure>
-
-        <img class="img-portfolio" src="./img/portifolio.jpg" alt="Web design">
-        <figcaption>Web design</figcaption>
+        <a href="https://www.snapchat.com/l/pt-br/download/">
+          <img class="img-portfolio" src="./img/snap.jpg" alt=">Snapchat">
+        </a>
+        <figcaption class="figcaption">Snapchat</figcaption>
       </figure>
+
       <figure>
-
-        <img class="img-portfolio" src="./img/projetos.jpg" alt="Projetos pessoais">
-        <figcaption>Projetos pessoais</figcaption>
+        <a href="https://github.com/EversonA">
+          <img class="img-portfolio" src="./img/iconfinder_github_square_black_107109.png" alt="GitHub">
+        </a>
+        <figcaption class="figcaption">GitHub</figcaption>
       </figure>
+
+      <figure>
+        <a href="https://eversona.github.io/calcularcorrida/">
+          <img class="img-portfolio" src="./img/Captura de Tela 2020-05-14 às 11.43.59.png" alt="App calcular corrida">
+        </a>
+        <figcaption class="figcaption">App calcular corrida</figcaption>
+      </figure>
+
     </div>
   </section>
+  <form action="secret.html">
+    <input type="submit" value="Secreto" />
+  </form>
 
-  <script src="" async defer></script>
+  <script language="Javascript">
+    window.onload=function(){
+    var mobile = (/iphone|ipad|ipod|android|blackberry|mini|windows\sce|palm/i.test(navigator.userAgent.toLowerCase()));
+    if (mobile) {
+        alert("Pagina não tao responsiva em mobile,em andamento.");              
+    } else {
+
+    }
+  }
+  </script>
+  <!-- <script>alert("Pagina não tao responsiva em mobile,em andamento.")</script> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type="text/javascript">
+    $(window).scroll(function () {
+      var scroll = $(window).scrollTop();
+      $('.imgmouse').stop().animate(
+        { opacity: ((180 - scroll) / 100) + 0.1 },
+        "slow"
+      );
+    });
+  </script>
 </body>
 
 </html>

@@ -12,6 +12,16 @@ body {
     font-family: arial;
   }
 
+header .imgmouse {
+    opacity: 1;
+    justify-content: center;
+    justify-items: center;
+    width: 90px;
+    margin-top: 200px;
+    position: absolute;
+    left: 47%;
+  }
+
   /* Se a tela tiver pelo menos 400px carrega estes estilos */
   @media (min-width:400px) {
     body {
@@ -40,6 +50,7 @@ body {
     transition: 0.3s;
   }
 
+  .menu a:active,
   .menu a:hover {
     background-color: #00ff;
     color: white;
@@ -60,6 +71,7 @@ body {
     text-decoration: none;
   }
   
+  a:active,
   a:hover {
     text-decoration: underline;
   }
@@ -88,7 +100,7 @@ body {
 
   .portfolio .grid {
     display: grid;
-    gap: 1em;
+    gap: 3em;
     grid-template-columns: 240px 240px;
   }
 
@@ -96,7 +108,7 @@ body {
     width: 240px;
     height: 180px;
     object-fit: cover;
-    border-radius: 10px;
+    border-radius: 20px;
   }
 
    @media (max-width: 380px) {
@@ -127,7 +139,53 @@ body {
     }
   }
 
-
   .portfolio figure {
     text-align: center;
+  }
+  
+  .portfolio figure a :active,
+  .portfolio figure a :hover {
+    box-shadow: 0px 0px 20px whitesmoke;
+    transform: scale(1.1);
+    transition: 500ms;
+  }
+
+  header .sapo {
+    opacity: 1;
+    justify-content: center;
+    justify-items: center;
+    width: 200px;
+    margin-top: 10px;
+    position: absolute;
+    left: 43%;
+  } 
+  header .sapo2 {
+    opacity: 1;
+    justify-content: center;
+    justify-items: center;
+    width: 400px;
+    margin-top: 10px;
+    position: absolute;
+    left: 36%;
+  } 
+  .contatotext {
+    text-align:center;
+    color:whitesmoke;
+    font-size: 44px;
+  }
+
+  .contatonumero {
+    text-align:left;
+    color:whitesmoke;
+    font-size: 22px;
+  }
+
+  .portfolio .grid .figcaption {
+    padding: .5em;
+  }
+
+  .linksecreto {
+    padding: 1px;
+    display:flex; 
+    
   }
