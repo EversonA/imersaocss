@@ -24,22 +24,20 @@
             <h1 class="site-title">Sou estudante</h1>
             <img class="sapo" src="img/tenor.gif" alt="MDN Logo" />
         </div>
+
+        <div class="divsobre">
+            <input class="botaomusica" type="button" value="APERTA AQUI" onclick="play()"> 
+        </div>
+        
     </header>
-    <audio id="myaudio" autoplay>
-        <source src="audio/musica-de-elevador.mp3" type="audio/mpeg">
-    </audio>
-</body>
-<script> document.getElementById('myaudio').play(); </script>
-<script>let audioPlaying = true,
-        backgroundAudio, browser;
-    browser = navigator.userAgent.toLowerCase();
-    $('<audio class="audio1" src="audio.mp3" loop></audio>').prependTo('body');
-    if (!browser.indexOf('firefox') > -1) {
-        $('<embed id="background-audio" src="audio.mp3" autostart="1"></embed>').prependTo('body');
-        backgroundAudio = setInterval(function () {
-            $("#background-audio").remove();
-            $('<embed id="background-audio" src="audio.mp3"></embed>').prependTo('body');
-        }, 120000); // 120000 is the duration of your audio which in this case 2 mins.
-    }</script>
+    </body>
+    <script>
+        function play() {
+          var audio = document.getElementById("audio");
+          audio.play();
+        }
+      </script>
+        <audio id="audio" src="audio/musica-de-elevador.mp3"></audio>
+    
 
 </html>

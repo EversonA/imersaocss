@@ -5,8 +5,8 @@
 }
 
 body {
-    background-image: url("../img/fundo-gradiente-suave_77528-21.jpg");
-    /* background-image: url("../img/giphy.gif"); */
+    /* background-image: url("../img/fundo-gradiente-suave_77528-21.jpg"); */
+    background-image: url("../img/giphy.gif");
     background-size: 200vw 200vh ;
     height: 100vh;
     font-family: arial;
@@ -189,3 +189,9 @@ header .imgmouse {
     display:flex; 
     
   }
+ 
+  .divsobre {
+    display: flex;
+    padding: .5em;
+  }
+  
