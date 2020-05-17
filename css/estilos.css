@@ -5,8 +5,9 @@
 }
 
 body {
-    /* background-image: url("../img/fundo-gradiente-suave_77528-21.jpg"); */
-    background-image: url("../img/giphy.gif");
+    background-image: url("../img/fundo-gradiente-suave_77528-21.jpg");
+    /* background-image: url("../img/giphy.gif"); */
+    /* background-image: url("../img/fundo3.gif"); */
     background-size: 200vw 200vh ;
     height: 100vh;
     font-family: arial;
@@ -21,6 +22,29 @@ header .imgmouse {
     position: absolute;
     left: 47%;
   }
+  
+  @media (max-width:420px) {
+    header .imgmouse {
+      justify-content: center;
+      justify-items: center;
+      width: 90px;
+      margin-top: 180px;
+      position: absolute;
+      left: 43%;
+    }
+  }
+
+  @media (min-width:1880px) {
+    header .imgmouse {
+      justify-content: center;
+      justify-items: center;
+      width: 120px;
+      margin-top: 300px;
+      position: absolute;
+      left: 47%;
+    }
+  }
+
 
   /* Se a tela tiver pelo menos 400px carrega estes estilos */
   @media (min-width:400px) {
@@ -111,23 +135,49 @@ header .imgmouse {
     border-radius: 20px;
   }
 
-   @media (max-width: 380px) {
+  @media screen and (min-width: 250px) {
     .portfolio .grid {
-      grid-template-columns: repeat(2,240px);
-      justify-content: center;
+    grid-template-columns:repeat(2,120px);
+    justify-content: center;
+    display: grid;
+    gap: .5em;
+    }
+    .img-portfolio {
+    width: 120px;
+    height: 120px;
     }
   }
 
-  @media (min-width: 560px) {
+  @media screen and (min-width: 350px) {
     .portfolio .grid {
-      grid-template-columns: repeat(2,240px);
-      justify-content: center;
+    grid-template-columns:repeat(2,150px);
+    justify-content: center;
+    display: grid;
+    gap: .5em;
+    }
+    .img-portfolio {
+    width: 150px;
+    height: 150px;
     }
   }
 
-  @media (min-width: 880px) {
+  @media screen and (min-width: 398px) {
     .portfolio .grid {
-    grid-template-columns: repeat(3,240px);
+    grid-template-columns:repeat(2,180px);
+    justify-content: center;
+    display: grid;
+    gap: .5em;
+    }
+    .img-portfolio {
+    width: 180px;
+    height: 180px;
+    }
+  }
+
+
+  @media (min-width: 750px) {
+    .portfolio .grid {
+    grid-template-columns: repeat(2,240px);
     justify-content: center;
     }
   }
@@ -137,6 +187,22 @@ header .imgmouse {
     grid-template-columns: repeat(4,240px);
     justify-content: center;
     }
+  } 
+  
+  @media (min-width: 1880px) {
+    body {
+      font-size: 22px;
+    }
+    .portfolio .grid {
+    grid-template-columns: repeat(4,300px);
+    justify-content: center;
+    gap: 4em;
+    }
+    .img-portfolio {
+      width: 300px;
+      height: 300px;
+      
+      }
   }
 
   .portfolio figure {

@@ -24,6 +24,7 @@ function renderTodos() {
         todoElement.appendChild(todoText);
         todoElement.appendChild(linkElement);
         listElement.appendChild(todoElement);
+
     }
 }
 
