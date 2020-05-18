@@ -930,18 +930,18 @@ header .imgmouse {
   }
   @media screen and (min-width: 1300px) {
     body {
-      font-size: 28px;
+      font-size: 20px;
     }
     .divcoment .yoda {
       opacity: 1;
       padding: 2px;
       justify-content: center;
       justify-items: center;
-      width: 411px;
+      width: 320px;
       margin-top: 65px;
       margin-left: -32px;
       position: absolute;
-      left: 36%;
+      left:41%;
     }
     #app #botao {
       background-image: url(https://upload.wikimedia.org/wikipedia/commons/d/df/Facebook_logo_thumbs_up_like_transparent_SVG.svg);
@@ -957,23 +957,23 @@ header .imgmouse {
       text-align: center;
       text-indent: 32px;
       position: absolute;
-      left: 522px;
+      left: 580px;
       margin-top: -15px;
     }
     #app #valor {
       position: absolute;
       width: 192px;
       height: 25px;
-      left: 522px;
+      left: 580px;
       font-size: 19px;
       margin-top: -48px;
     }
     #app button.botaoadd {
       position: absolute;
-      height: 25px;
+      height: 22px;
       border-radius: 7px;
-      font-size: 19px;
-      left: 721px;
+      font-size: 16px;
+      left: 787px;
       margin-top: -46px;
     }
   }
