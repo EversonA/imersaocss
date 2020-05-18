@@ -221,10 +221,173 @@ header .imgmouse {
     justify-content: center;
     justify-items: center;
     width: 200px;
-    margin-top: 10px;
+    margin-top: 35px;
     position: absolute;
     left: 43%;
   } 
+
+  .divsobre1 .botaomusica {
+    opacity: 1;
+    justify-content: center;
+    justify-items: center;
+    width: 400px;
+    margin-top: 10px;
+    left: 36%;
+}
+
+  @media screen and (min-width: 250px) {
+    .divsobre1 .botaomusica {
+      opacity: 1;
+      justify-content: center;
+      justify-items: center;
+      width: 249px;
+      margin-top: 10px;
+      left: 36%;
+    }
+    header .sapo {
+      opacity: 1;
+      justify-content: center;
+      justify-items: center;
+      width: 149px;
+      margin-top: 41px;
+      position: absolute;
+      left: 27%;
+      }
+  }
+
+  @media screen and (min-width: 350px) {
+    .divsobre1 .botaomusica {
+      opacity: 1;
+      justify-content: center;
+      justify-items: center;
+      width: 249px;
+      margin-top: 5px;
+      left: 36%;
+    }
+    header .sapo {
+      opacity: 1;
+      justify-content: center;
+      justify-items: center;
+      width: 200px;
+      margin-top: 35px;
+      position: absolute;
+      left: 24%;
+    } 
+  }
+
+  @media screen and (min-width: 398px) {
+    .divsobre1 .botaomusica {
+      opacity: 1;
+      justify-content: center;
+      justify-items: center;
+      width: 249px;
+      margin-top: 6px;
+      left: 36%;
+    }
+    header .sapo {
+      opacity: 1;
+      justify-content: center;
+      justify-items: center;
+      width: 228px;
+      margin-top: 35px;
+      position: absolute;
+      left: 23%;
+    } 
+  }
+
+  @media (min-width: 750px) {
+    .divsobre1 .botaomusica {
+      opacity: 1;
+      justify-content: center;
+      justify-items: center;
+      width: 249px;
+      margin-top: 5px;
+      left: 36%;
+    }
+    header .sapo {
+      opacity: 1;
+      justify-content: center;
+      justify-items: center;
+      width: 200px;
+      margin-top: 35px;
+      position: absolute;
+      left: 40%;
+    } 
+  }
+
+  @media (min-width: 1200px) {
+    body {
+      font-size: 32px;
+    }
+
+    .divsobre1 .botaomusica {
+      opacity: 1;
+      justify-content: center;
+      justify-items: center;
+      width: 466px;
+      margin-top: 5px;
+      position: absolute;
+      left: 33%;
+    }
+    header .sapo {
+      opacity: 1;
+      justify-content: center;
+      justify-items: center;
+      width: 309px;
+      margin-top: 35px;
+      position: absolute;
+      left: 38%;
+     } 
+    } 
+
+    @media (min-width: 1300px) {
+      body {
+        font-size: 16px;
+      }
+  
+      .divsobre1 .botaomusica {
+        opacity: 1;
+        justify-content: center;
+        justify-items: center;
+        width: 140px;
+        margin-top: 5px;
+        position: absolute;
+        left: 45%;
+      }
+      header .sapo {
+        opacity: 1;
+        justify-content: center;
+        justify-items: center;
+        width: 215px;
+        margin-top: 35px;
+        position: absolute;
+        left: 42%;
+       } 
+      } 
+  
+  @media (min-width: 1880px) {
+    body {
+      font-size: 34px;
+    }
+    .divsobre1 .botaomusica {
+      opacity: 1;
+      justify-content: center;
+      justify-items: center;
+      width: 313px;
+      margin-top: 5px;
+      left: 42%;
+    }
+    header .sapo {
+      opacity: 1;
+      justify-content: center;
+      justify-items: center;
+      width: 327px;
+      margin-top: 35px;
+      position: absolute;
+      left: 41.6%;
+    } 
+  }
+ 
   header .sapo2 {
     opacity: 1;
     justify-content: center;
@@ -256,8 +419,302 @@ header .imgmouse {
     
   }
  
-  .divsobre {
-    display: flex;
-    padding: .5em;
+  @media screen and (min-width: 250px) {
+    .contatotext {
+      text-align:center;
+      color:whitesmoke;
+      font-size: 38px;
+    }
+    .botaomusicasobre {
+      opacity: 1;
+      justify-content: center;
+      justify-items: center;
+      width: 257px;
+      margin-top: 0px;
+      margin-bottom: 5px;
+      position: relative;
+      left: 9%;
+    }
+    .contatonumero {
+      text-align:center;
+      color:whitesmoke;
+      font-size: 22px;
+    }
+    .contatoemail {
+      text-align:center;
+      color:whitesmoke;
+      font-size: 14px;
+    }
+    header .sapo2 {
+      opacity: 1;
+      justify-content: center;
+      justify-items: center;
+      width: 270px;
+      margin-top: 10px;
+      position: absolute;
+      left: 9%;
+    } 
   }
+
+  @media screen and (min-width: 350px) {
+    .contatotext {
+      text-align:center;
+      color:whitesmoke;
+      font-size: 38px;
+    }
+    .botaomusicasobre {
+      opacity: 1;
+      justify-content: center;
+      justify-items: center;
+      width: 257px;
+      margin-top: 0px;
+      margin-bottom: 5px;
+      position: relative;
+      left: 9%;
+    }
+    .contatonumero {
+      text-align:center;
+      color:whitesmoke;
+      font-size: 22px;
+    }
+    .contatoemail {
+      text-align:center;
+      color:whitesmoke;
+      font-size: 14px;
+    }
+    header .sapo2 {
+      opacity: 1;
+      justify-content: center;
+      justify-items: center;
+      width: 290px;
+      margin-top: 10px;
+      position: absolute;
+      left: 11%;
+    } 
+    }
+    
+
+  @media screen and (min-width: 398px) {
+    .contatotext {
+      text-align:center;
+      color:whitesmoke;
+      font-size: 44px;
+    }
+    .botaomusicasobre {
+      opacity: 1;
+      justify-content: center;
+      justify-items: center;
+      width: 244px;
+      margin-top: 0px;
+      margin-bottom: 5px;
+      position: relative;
+      left: 9%;
+    }
+    .contatonumero {
+      text-align:center;
+      color:whitesmoke;
+      font-size: 22px;
+    }
+    .contatoemail {
+      text-align:center;
+      color:whitesmoke;
+      font-size: 14px;
+    }
+    header .sapo2 {
+      opacity: 1;
+      justify-content: center;
+      justify-items: center;
+      width: 300px;
+      margin-top: 10px;
+      position: absolute;
+      left: 13%;
+    } 
+  }
+
+  @media screen and (min-width: 750px) {
+    body {
+      font-size: 22px;
+    }
+    .contatotext {
+      text-align:center;
+      color:whitesmoke;
+      font-size: 44px;
+    }
+    .botaomusicasobre {
+      opacity: 1;
+      justify-content: center;
+      justify-items: center;
+      width: 307px;
+      margin-top: 0px;
+      margin-bottom: 5px;
+      position: relative;
+      left: 10%;
+    }
+    .contatonumero {
+      text-align:center;
+      color:whitesmoke;
+      font-size: 28px;
+    }
+    .contatoemail {
+      text-align:center;
+      color:whitesmoke;
+      font-size: 18px;
+    }
+    header .sapo2 {
+      opacity: 1;
+      justify-content: center;
+      justify-items: center;
+      width: 350px;
+      margin-top: 10px;
+      position: absolute;
+      left: 33%;
+    } 
+  }
+
+  @media screen and (min-width: 1000px) {
+    body {
+      font-size: 22px;
+    }
+    .contatotext {
+      text-align:center;
+      color:whitesmoke;
+      font-size: 64px;
+    }
+    .botaomusicasobre {
+      opacity: 1;
+      justify-content: center;
+      justify-items: center;
+      width: 372px;
+      margin-top: 0px;
+      margin-bottom: 5px;
+      position: relative;
+      left: 9%;
+    }
+    .contatonumero {
+      text-align:center;
+      color:whitesmoke;
+      font-size: 34px;
+    }
+    .contatoemail {
+      text-align:center;
+      color:whitesmoke;
+      font-size: 21px;
+    }
+    header .sapo2 {
+      opacity: 1;
+      justify-content: center;
+      justify-items: center;
+      width: 417px;
+      margin-top: 10px;
+      position: absolute;
+      left: 31%;
+    } 
+    } 
+
+  @media screen and (min-width: 1300px) {
+    body {
+      font-size: 22px;
+    }
+    .botaomusicasobre {
+      opacity: 1;
+      justify-content: center;
+      justify-items: center;
+      width: 280px;
+      margin-top: 0px;
+      margin-bottom: 5px;
+      position: relative;
+      left: 9%;
+    }
+    .contatotext {
+      text-align:center;
+      color:whitesmoke;
+      font-size: 44px;
+    }
+    .contatonumero {
+      text-align:center;
+      color:whitesmoke;
+      font-size: 22px;
+    }
+    .contatoemail {
+      text-align:center;
+      color:whitesmoke;
+      font-size: 16px;
+    }
+    header .sapo2 {
+      opacity: 1;
+      justify-content: center;
+      justify-items: center;
+      width: 290px;
+      margin-top: 10px;
+      position: absolute;
+      left: 40%;
+    } 
+      } 
+  
+  @media screen and (min-width: 1880px) {
+    body {
+      font-size: 32px;
+    }
+    .contatotext {
+      text-align:center;
+      color:whitesmoke;
+      font-size: 102px;
+    }
+    .botaomusicasobre {
+      opacity: 1;
+      justify-content: center;
+      justify-items: center;
+      width: 607px;
+      margin-top: 0px;
+      margin-bottom: 5px;
+      position: relative;
+      left: 7%;
+    }
+    .contatonumero {
+      text-align:center;
+      color:whitesmoke;
+      font-size: 56px;
+    }
+    .contatoemail {
+      text-align:center;
+      color:whitesmoke;
+      font-size: 34px;
+    }
+    header .sapo2 {
+      opacity: 1;
+      justify-content: center;
+      justify-items: center;
+      width: 571px;
+      margin-top: 10px;
+      position: absolute;
+      left: 34%;
+    }  
+  }
+  .divcoment .yoda {
+    opacity: 1;
+    padding: 5px;
+    justify-content: center;
+    justify-items: center;
+    width: 300px;
+    margin-top: 10px;
+    margin-left: 20px;
+    position: relative;
+    left: auto;
+  }
+
+  #app #botao {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/d/df/Facebook_logo_thumbs_up_like_transparent_SVG.svg);
+    background-color: #e7e9f1;
+    color: #385596;
+    background-size: 50px;
+    background-position: 20px 25%;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 59px;
+    font-size: 20px;
+    border: 1px solid #a8b4c9;
+    text-align: center;
+    text-indent: 32px;
+    
+}
   

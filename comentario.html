@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 
-<body>
+<body id="balada">
     <header>
         <nav class="menu">
             <ul>
@@ -23,25 +23,73 @@
 
             <ul></ul>
             <input type="text" placeholder="Digite um Comentario" id="valor" onclick="play()">
-            <button onmouseover="play()">Adicionar</button>
+            <button>Adicionar</button>
+            <button id="botao" onclick="adicionarLike(),play()">0 Likes </button>
 
         </div>
 
-        <div>
-            <h1 class="contatotext">
-                <-------- Aqui</h1>
-                    <h2 class="contatonumero"> </h2>
-                    <img class="sapo2" src="img/baby-yoda-gif-animado.gif" alt="MDN Logo" />
+        <div class="divcoment">
+            <img class="yoda" src="img/baby-yoda-gif-animado.gif" alt="MDN Logo" />
         </div>
     </header>
 
 </body>
+<script>
+    function playtuts() {
+        var tuts = document.getElementById("aldio");
+        tuts.play();
+    }
+</script>
+<script>
+    function pisca() {
+        var f = document.getElementById('balada');
+        setInterval(function () {
+            f.style.visibility = (f.style.visibility == 'hidden' ? '' : 'hidden');
+        }, 50);
+    }
+</script>
+<script>
+    function autorefresh() {
+        setTimeout(function () {
+            window.location.reload(1);
+        }, 33000);
+    }
+</script>
+<script>
+    var quantidadeLikes = 0
+    function adicionarLike() {
+        quantidadeLikes++
+        if (quantidadeLikes < 2) {
+            botao.innerHTML = (quantidadeLikes + "  Like")
+        }
+        else {
+            botao.innerHTML = (quantidadeLikes + " Likes")
+        }
+        if (quantidadeLikes === 10) {
+            alert("Gostou tanto assim? continua");
+        }
+        if (quantidadeLikes === 20) {
+            alert("Woooooooooow");
+        }
+        if (quantidadeLikes === 30) {
+            alert("Mais um pouco vai");
+        }
+        if (quantidadeLikes === 40) {
+            alert("UHUUUUUUUUUUUUUUUUUU");
+            pisca();
+            playtuts();
+            autorefresh();
+        }
+    }
+</script>
 <script src='todo.js'></script>
 <script>
     function play() {
         var audio = document.getElementById("audio");
         audio.play();
-    }</script>
-<audio id="audio" src="audio/memes-2.mp3"></audio>
+    }
+</script>
+<audio id="audio" src="audio/pop.mp3"></audio>
+<audio id="aldio" src="audio/tutstuts.mp3"></audio>
 
 </html>
