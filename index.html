@@ -64,8 +64,23 @@
     </div>
   </section>
   <form action="secret.html">
-    <input type="submit" value="Secreto" />
+    <input id="secretfull" type="submit" value="Secreto" onclick="openFullscreen()" />
   </form>
+  </script>
+  <script>
+    var elem = document.getElementById("secretfull");
+
+    function openFullscreen() {
+      if (elem.requestFullscreen) {
+        elem.requestFullscreen();
+      } else if (elem.mozRequestFullScreen) { /* Firefox */
+        elem.mozRequestFullScreen();
+      } else if (elem.webkitRequestFullscreen) { /* Chrome, Safari and Opera */
+        elem.webkitRequestFullscreen();
+      } else if (elem.msRequestFullscreen) { /* IE/Edge */
+        elem.msRequestFullscreen();
+      }
+    }
   </script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script type="text/javascript">
