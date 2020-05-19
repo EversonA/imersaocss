@@ -5,8 +5,8 @@
 }
 
 body {
-    /* background-image: url("../img/fundo-gradiente-suave_77528-21.jpg"); */
-    background-image: url("../img/giphy.gif");
+    background-image: url("../img/fundo-gradiente-suave_77528-21.jpg");
+    /* background-image: url("../img/giphy.gif"); */
     background-size: 200vw 200vh ;
     height: 100vh;
     font-family: arial;
@@ -715,6 +715,15 @@ header .imgmouse {
     text-indent: 32px;   
 }
   @media screen and (min-width: 250px) {
+    #app a {
+      color: red;
+    }
+    #app .listinha {
+      margin-top: -237px;
+      position: absolute;
+      left: 79px;
+      color: white;
+    }
     .divcoment .yoda {
       opacity: 1;
       padding: 2px;
@@ -755,6 +764,15 @@ header .imgmouse {
     }
   }
   @media screen and (min-width: 350px) {
+    #app a {
+      color: red;
+    }
+    #app .listinha {
+      margin-top: -279px;
+      position: absolute;
+      left: 32px;
+      color: white;
+    }
     .divcoment .yoda {
       opacity: 1;
       padding: 2px;
@@ -796,6 +814,15 @@ header .imgmouse {
   }
 
   @media screen and (min-width: 398px) {
+    #app a {
+      color: red;
+    }
+    #app .listinha {
+      margin-top: -319px;
+      position: absolute;
+      left: 32px;
+      color: white;
+    }
     .divcoment .yoda {
       opacity: 1;
       padding: 5px;
@@ -839,6 +866,15 @@ header .imgmouse {
   }
   
   @media screen and (min-width: 750px) {
+    #app a {
+      color: red;
+    }
+    #app .listinha {
+      margin-top: -319px;
+      position: absolute;
+      left: 32px;
+      color: white;
+    }
     .divcoment .yoda {
       opacity: 1;
       padding: 2px;
@@ -932,6 +968,11 @@ header .imgmouse {
     body {
       font-size: 20px;
     }
+    #app .listinha {
+      margin-top: -100px;
+      position: absolute;
+      left:402px;
+    }
     .divcoment .yoda {
       opacity: 1;
       padding: 2px;
@@ -979,6 +1020,15 @@ header .imgmouse {
   }
 
   @media screen and (min-width: 1880px) {
+    #app a {
+      color: red;
+    }
+    #app .listinha {
+      margin-top: -450px;
+      position: absolute;
+      left: 45px;
+      color: white;
+    }
     body {
       font-size: 32px;
     }
@@ -1026,4 +1076,8 @@ header .imgmouse {
       left: 999px;
       margin-top: -60px;
     }
+  }
+
+  .bota {
+    position: fixed;
   }
